@@ -32,7 +32,7 @@ jobs:
         ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.SERVER_IP }} 'echo "SSH connection successful"'
         python3 -m venv yolo
         source yolo/bin/activate
-        cd objectdetection 
-        cd yolocode 
-        python yolo_model.py
+        echo "Current directory: $(pwd)"
+        
+        
         
