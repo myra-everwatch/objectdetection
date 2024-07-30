@@ -1,0 +1,11 @@
+train: ./new_data/images/train  
+val: ./new_data/images/test 
+ 
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  0: Spongebob
+  1: Not SpongeBob
