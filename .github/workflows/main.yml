@@ -30,3 +30,8 @@ jobs:
     - name: Test SSH connection
       run: |
         ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.SERVER_IP }} 'echo "SSH connection successful"'
+        source yolo/bin/activate
+        cd objectdetection 
+        cd yolocode 
+        python yolo_model.py
+        
