@@ -33,6 +33,9 @@ jobs:
         python3 -m venv yolo
         source yolo/bin/activate
         echo "Current directory: $(pwd)"
+
+        cd /home/ubuntu/objectdetection/yolocode || { echo "Directory not found"; exit 1; }
+        echo "Changed directory to /home/ubuntu/objectdetection/yolocode"
         
         
         
