@@ -1,5 +1,5 @@
-train: ./new_data/images/train  
-val: ./new_data/images/test 
+train: /home/ubuntu/objectdetection/yolo_code/combined/train 
+val: /home/ubuntu/objectdetection/yolo_code/combined/test
  
 
 # Number of classes
